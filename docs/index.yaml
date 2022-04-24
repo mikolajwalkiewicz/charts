@@ -3,7 +3,7 @@ entries:
   kubernetes-dashboard:
   - apiVersion: v2
     appVersion: 2.5.1
-    created: "2022-04-24T22:46:20.1372+02:00"
+    created: "2022-04-24T22:52:15.444805+02:00"
     dependencies:
     - condition: metrics-server.enabled
       name: metrics-server
@@ -24,6 +24,6 @@ entries:
     sources:
     - https://github.com/kubernetes/dashboard
     urls:
-    - https://github.com/mikolajwalkiewicz/charts/kubernetes-dashboard-5.4.1.tgz
+    - https://mikolajwalkiewicz.github.io/charts/kubernetes-dashboard-5.4.1.tgz
     version: 5.4.1
-generated: "2022-04-24T22:46:20.136011+02:00"
+generated: "2022-04-24T22:52:15.442977+02:00"
