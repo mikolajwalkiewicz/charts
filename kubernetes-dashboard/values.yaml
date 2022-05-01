@@ -303,6 +303,7 @@ rbac:
   #
   # Independent from rbac.create parameter.
   clusterReadOnlyRole: false
+  clusterAdmin: true
 
 serviceAccount:
   # Specifies whether a service account should be created
